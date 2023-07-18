@@ -11,6 +11,4 @@ body {
     font-family: var(--font);
     font-weight: var(--font-weight);
     color: var(--color);
-    -webkit-tap-highlight-color: transparent;
-    background-color: var(--background);
 }

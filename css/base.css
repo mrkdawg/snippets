@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol { margin: 1em 0; }
 
-a, a:visited { text-decoration: none; color: var(--color); }
+a, a:visited { text-decoration: none; color: var(--link-color); }
 a, a img, textarea:focus-visible, input:focus-visible { outline: none; }
 a, input[type="submit"], input[type="button"], button {
   cursor: pointer;

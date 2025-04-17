@@ -53,7 +53,7 @@ img, video, audio {
   max-width: 100%;
   display: block;
 }
-video { max-height: var(--real100vh, 100vh); }
+video { max-height: 100vh; max-height: 100dvh; }
 audio:not([controls]) { display: none; height: 0; }
 
 ul, ol { list-style-type: none; padding: 0; margin: 0; }

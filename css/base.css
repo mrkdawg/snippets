@@ -102,7 +102,7 @@ pre, code, kbd, samp {
 template, [hidden] { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *, *:before, *:after {
     animation: none !important;
     transition: none !important;
   }

@@ -6,6 +6,7 @@ html {
   line-height: var(--line-height);
   background-color: var(--background-color);
   scroll-behavior: smooth;
+	scrollbar-width: thin;
 }
 
 body {
@@ -27,12 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol { margin: 1em 0; }
-
-a, a:visited { text-decoration: none; color: var(--link-color); }
-a, a img, textarea:focus-visible, input:focus-visible { outline: none; }
-a, input[type="submit"], input[type="button"], button {
-  cursor: pointer;
-}
+ul, ol { list-style-type: none; padding: 0; margin: 0; }
 
 b, strong { font-weight: bolder; }
 
@@ -47,21 +43,21 @@ sub, sup {
 sub { bottom: -0.25em; }
 sup { top: -0.5em; }
 
-img, video, audio {
-  border-style: none;
-  border: 0;
-  max-width: 100%;
-  display: block;
-}
-video { max-height: 100vh; max-height: 100dvh; }
-audio:not([controls]) { display: none; height: 0; }
-
-ul, ol { list-style-type: none; padding: 0; margin: 0; }
-
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
+}
+
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a, a:visited { text-decoration: none; color: var(--link-color); }
+a, a img, textarea:focus-visible, input:focus-visible { outline: none; }
+a, input[type="submit"], input[type="button"], button {
+  cursor: pointer;
 }
 
 button, input, optgroup, select, textarea {
@@ -94,10 +90,14 @@ input[type="submit"], input[type="button"], input[type="search"], input[type="te
 
 [type="checkbox"], [type="radio"] { padding: 0; }
 
-pre, code, kbd, samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+img, video, audio {
+  border-style: none;
+  border: 0;
+  max-width: 100%;
+  display: block;
 }
+video { max-height: 100vh; max-height: 100dvh; }
+audio:not([controls]) { display: none; height: 0; }
 
 template, [hidden] { display: none !important; }
 

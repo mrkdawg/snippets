@@ -21,8 +21,8 @@ body {
 
 header, section, aside, nav, main, article, figure, figcaption, details { display: block; }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol { margin-top: 0; }
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: var(--heading-weight);
   font-family: var(--heading-font);

@@ -12,7 +12,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 100vw;
+  width: 100vw;
   overflow-x: hidden;
   font-family: var(--font);
   font-weight: var(--font-weight);

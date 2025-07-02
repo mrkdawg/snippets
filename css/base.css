@@ -1,6 +1,6 @@
 *, *:before, *:after { box-sizing: border-box; }
 :focus-visible { outline: none; }
-::selection { background-color: rgba(0, 0, 0, 0.1); }
+::selection { background-color: var(--selection-color); }
 
 html {
   font-size: 100%;

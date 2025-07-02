@@ -11,4 +11,5 @@
     --color: #000;
     --link-color: #00f;
     --background-color: #fff;
+    --selection-color: rgba(0, 0, 0, 0.1);
 }
